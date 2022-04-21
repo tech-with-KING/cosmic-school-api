@@ -1,6 +1,6 @@
 const express=require('express')
 const schema = require('./auth/connectdb')
-const conned = require('./mongoose/connectdb')
+const connectdb = require('./mongoose/connectdb')
 const app=express()
 
 
