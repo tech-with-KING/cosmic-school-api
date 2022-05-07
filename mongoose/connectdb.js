@@ -1,10 +1,12 @@
 const mongoose=require('mongoose')
 connectdb=async()=>{
     try {
-        const connect= mongoose.connect('helloworld',()=>{ }
+        const connect=await mongoose.connect('mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{useNewUrlParser:true},()=>{ 
+            console.log('connected to db')
+        }
         )
     } catch (error) {
-        console.log(error)
+        console.log('from mongodb:'+error)
     }
 
 }

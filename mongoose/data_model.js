@@ -17,7 +17,7 @@ const authorschema= new mongoose.Schema(
         max:20,
         uppercase:true
     },
-    parahph:{
+    para:{
         type:String,
         required:true,
         min:4,
@@ -36,4 +36,4 @@ const authorschema= new mongoose.Schema(
 
 )
 
-module.exports=authorschema;
+module.exports=mongoose.model('article',authorschema);
