@@ -1,39 +1,40 @@
-
 const mongoose=require('mongoose');
 
-const authorschema= new mongoose.Schema(
-{
-    name:{
+const authorschema= new mongoose.Schema({
+    title:{},
+    author:{},
+    article:{
+    heading:{
         type:String,
         required:true,
         min:4,
         max:20,
         uppercase:true
     },
-    author:{
+    paragraph:{
         type:String,
         required:true,
         min:4,
         max:20,
         uppercase:true
     },
-    para:{
+    snippet:{
         type:String,
         required:true,
         min:4,
         max:20,
-        uppercase:true
+        uppenrcase:true
     },
-    description:{
+    img:{
         type:String,
         required:true,
         min:4,
         max:20,
-        uppercase:true
-    },
-
+        uppercase:true,
+	default:null
+    }
 }
-
-)
+    
+})
 
 module.exports=mongoose.model('article',authorschema);

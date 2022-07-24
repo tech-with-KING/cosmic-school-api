@@ -1,11 +1,6 @@
 const express=require('express')
-const connectdb= require('./mongoose/connectdb')
-const python_course_content=require('./routes/python_tutorials')
-
-
-
-
-
+const connectdb= require('./routes/mongoose/connectdb')
+const python_course_content=require('./routes/articles_route/articles')
 const app=express()
 connectdb()
 app.use(express.json())
