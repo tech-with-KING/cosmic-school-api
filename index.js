@@ -1,10 +1,12 @@
 const express=require('express')
 const connectdb= require('./routes/mongoose/connectdb')
-const python_course_content=require('./routes/articles_route/articles')
+const articles = require('./routes/articles_route/articles')
+require('dotenv').config()
+console.log('from db '+process.env.DB_URI)
 const app=express()
-connectdb()
+connectdb(process.env.DB_URI)
 app.use(express.json())
-app.use('/',python_course_content)
+app.use('/',articles)
 
 app.listen('5500',()=>{
     console.log('hello world')

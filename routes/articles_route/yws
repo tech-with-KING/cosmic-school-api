@@ -1,0 +1,1083 @@
+cosmic@codekill:~/cosmic-school-api/routes/articles_route$ npm start
+
+> my_blogs_api@1.0.0 start
+> nodemon index.js
+
+[nodemon] 2.0.16
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index.js`
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module './articles_data'
+Require stack:
+- /home/cosmic/cosmic-school-api/routes/articles_route/articles.js
+- /home/cosmic/cosmic-school-api/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/cosmic/cosmic-school-api/routes/articles_route/articles.js',
+    '/home/cosmic/cosmic-school-api/index.js'
+  ]
+}
+[nodemon] app crashed - waiting for file changes before starting...
+
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module './articles_data'
+Require stack:
+- /home/cosmic/cosmic-school-api/routes/articles_route/articles.js
+- /home/cosmic/cosmic-school-api/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/cosmic/cosmic-school-api/routes/articles_route/articles.js',
+    '/home/cosmic/cosmic-school-api/index.js'
+  ]
+}
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+
+
+
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+hello world
+connected to db
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:4
+const  = require('../mongoose/article_schema')
+       ^
+
+SyntaxError: Unexpected token '='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:4
+const {update_article,create_article,delete_article,create_article} = require('../mongoose/article_schema')
+                                                    ^
+
+SyntaxError: Identifier 'create_article' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:6
+    .post(create_article(req,res))
+                         ^
+
+ReferenceError: req is not defined
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:6:26)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:6
+    .post(create_article(req,res))
+                         ^
+
+ReferenceError: req is not defined
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:6:26)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:18
+
+
+
+SyntaxError: Unexpected end of input
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:8
+    .get((req,res)=>{
+    ^
+
+SyntaxError: Unexpected token '.'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:2738) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [Bus]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '../articles_route/'
+Require stack:
+- /home/cosmic/cosmic-school-api/routes/articles_route/articles.js
+- /home/cosmic/cosmic-school-api/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/cosmic/cosmic-school-api/routes/articles_route/articles.js',
+    '/home/cosmic/cosmic-school-api/index.js'
+  ]
+}
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '../articles_route/'
+Require stack:
+- /home/cosmic/cosmic-school-api/routes/articles_route/articles.js
+- /home/cosmic/cosmic-school-api/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/cosmic/cosmic-school-api/routes/articles_route/articles.js',
+    '/home/cosmic/cosmic-school-api/index.js'
+  ]
+}
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '../articles_route/'
+Require stack:
+- /home/cosmic/cosmic-school-api/routes/articles_route/articles.js
+- /home/cosmic/cosmic-school-api/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:2:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/cosmic/cosmic-school-api/routes/articles_route/articles.js',
+    '/home/cosmic/cosmic-school-api/index.js'
+  ]
+}
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '../articles_route/'
+Require stack:
+- /home/cosmic/cosmic-school-api/routes/articles_route/articles.js
+- /home/cosmic/cosmic-school-api/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:2:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/cosmic/cosmic-school-api/routes/articles_route/articles.js',
+    '/home/cosmic/cosmic-school-api/index.js'
+  ]
+}
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '../articles_route/'
+Require stack:
+- /home/cosmic/cosmic-school-api/routes/articles_route/articles.js
+- /home/cosmic/cosmic-school-api/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:2:26)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/cosmic/cosmic-school-api/routes/articles_route/articles.js',
+    '/home/cosmic/cosmic-school-api/index.js'
+  ]
+}
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '../articles_route/'
+Require stack:
+- /home/cosmic/cosmic-school-api/routes/articles_route/articles.js
+- /home/cosmic/cosmic-school-api/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:2:26)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/cosmic/cosmic-school-api/routes/articles_route/articles.js',
+    '/home/cosmic/cosmic-school-api/index.js'
+  ]
+}
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '../articles_route/'
+Require stack:
+- /home/cosmic/cosmic-school-api/routes/articles_route/articles.js
+- /home/cosmic/cosmic-school-api/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:2:26)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/cosmic/cosmic-school-api/routes/articles_route/articles.js',
+    '/home/cosmic/cosmic-school-api/index.js'
+  ]
+}
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '../articles_route/'
+Require stack:
+- /home/cosmic/cosmic-school-api/routes/articles_route/articles.js
+- /home/cosmic/cosmic-school-api/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:2:70)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/cosmic/cosmic-school-api/routes/articles_route/articles.js',
+    '/home/cosmic/cosmic-school-api/index.js'
+  ]
+}
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '../articles_route/'
+Require stack:
+- /home/cosmic/cosmic-school-api/routes/articles_route/articles.js
+- /home/cosmic/cosmic-school-api/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:2:70)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/cosmic/cosmic-school-api/routes/articles_route/articles.js',
+    '/home/cosmic/cosmic-school-api/index.js'
+  ]
+}
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '../articles_route/'
+Require stack:
+- /home/cosmic/cosmic-school-api/routes/articles_route/articles.js
+- /home/cosmic/cosmic-school-api/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:2:70)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/cosmic/cosmic-school-api/routes/articles_route/articles.js',
+    '/home/cosmic/cosmic-school-api/index.js'
+  ]
+}
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:3
+    .post()
+     ^
+
+TypeError: require(...).post is not a function
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:3:6)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:3:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+xo    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+from mongodb:MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:8:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+from db mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+xo    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+
+  C-c C-c
+cosmic@codekill:~/cosmic-school-api/routes/articles_route$ npm start
+
+> my_blogs_api@1.0.0 start
+> nodemon index.js
+
+[nodemon] 2.0.16
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index.js`
+from db mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+from db mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+from db mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+from db mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:508
+  this.stack.push(layer);
+             ^
+
+TypeError: Cannot read properties of undefined (reading 'push')
+    at Function.route (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:508:14)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:3:8)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:3:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+from db mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+from db mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+from db mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+from db mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:4538) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [Bus]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+from db mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+from db mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:139
+  debug('dispatching %s %s', req.method, req.url);
+                                 ^
+
+TypeError: Cannot read properties of undefined (reading 'method')
+    at Function.handle (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:139:34)
+    at router (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:47:12)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/routes/articles_route/articles.js:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:3:18)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+from db mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:464:13)
+    at Function.<anonymous> (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/cosmic/cosmic-school-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+from db mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+/home/cosmic/cosmic-school-api/index.js:9
+app.use('/',articles())
+            ^
+
+TypeError: articles is not a function
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:9:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+from db mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:139
+  debug('dispatching %s %s', req.method, req.url);
+                                 ^
+
+TypeError: Cannot read properties of undefined (reading 'method')
+    at Function.handle (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:139:34)
+    at router (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:47:12)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:9:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+from db mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:139
+  debug('dispatching %s %s', req.method, req.url);
+                                 ^
+
+TypeError: Cannot read properties of undefined (reading 'method')
+    at Function.handle (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:139:34)
+    at router (/home/cosmic/cosmic-school-api/node_modules/express/lib/router/index.js:47:12)
+    at Object.<anonymous> (/home/cosmic/cosmic-school-api/index.js:9:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+from db mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+hello world
+
+
+
+
+
+connected to db
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+from db mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+hello world
+connected to db
