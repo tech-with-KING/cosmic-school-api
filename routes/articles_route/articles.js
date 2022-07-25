@@ -4,7 +4,7 @@ const {create_article,delete_article,fetch_article,update_article} = require('..
 
 const router  = express.Router();
 router.route('/emacs_lsp')
-    .get((req,res)=>{res.send('all')})
+    .get(create_article)
     .patch(update_article)
     
 

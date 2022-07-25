@@ -1,5 +1,8 @@
+const mongoose = require('mongoose')
+const article  = require('../mongoose/article_schema')
 const create_article = (req,res)=>{
-    res.send("hello world");
+    schema.title = req.body.name
+    
 }
 const delete_article = (req,res)=>{
     res.send("hello world");
