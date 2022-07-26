@@ -7,11 +7,6 @@ article_route.route('/articles')
     .get()
     .post(create_article)
     .patch(update_article)
-    
-
-
-
-
 module.exports = article_route;
 
 
