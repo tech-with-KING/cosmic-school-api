@@ -1,16 +1,35 @@
 const mongoose=require('mongoose');
-
-const authorschema= new mongoose.Schema({
-    title:{},
-    author:{},
-    article:{
-    heading:{
+const articleschema= new mongoose.Schema({
+    title:{
+	type:String,
+	required:true,
+	default:null,
+	max:85,
+	min:8,
+    },
+    author:{
+	type:String,
+	required:true,
+	default:null,
+	max:15,
+	min:4,
+    },
+    posterImg:{
+	type:String,
+	required:true,
+	default:null,
+	max:85,
+	min:8,
+    },
+    article:[
+	{
+	heading:{
         type:String,
         required:true,
         min:4,
         max:20,
         uppercase:true
-    },
+	},
     paragraph:{
         type:String,
         required:true,
@@ -27,14 +46,17 @@ const authorschema= new mongoose.Schema({
     },
     img:{
         type:String,
-        required:true,
+        required:false,
         min:4,
         max:20,
         uppercase:true,
 	default:null
+    }}
+    ],
+    category:{
+	type:String,
+	required:true,
     }
-}
-    
 })
 
-module.exports=mongoose.model('article',authorschema);
+module.exports = mongoose.model('article',articleschema);
