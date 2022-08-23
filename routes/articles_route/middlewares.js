@@ -1,16 +1,17 @@
 const article  = require('./article_schema')
 const create_article =async (req,res)=>{
-        try{
+    try{
 	const Article = new article(
 	    {
 		title:req.body.title,
 		author:req.body.author,
-		posteImg:req.body.posterImg,
+		posterImg:req.body.posterImg,
 		article:req.body.article,
+		category:req.body.category
 	    })
 	const newarticle = await Article.save()
 	    res.status(200).json(newarticle)
-	}catch(err){
+    }catch(err){
 	    res.status(500).send(err)
 	}
 }
