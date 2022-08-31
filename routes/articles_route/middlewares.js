@@ -12,7 +12,7 @@ const create_article =async (req,res)=>{
 	const newarticle = await Article.save()
 	    res.status(200).json(newarticle)
     }catch(err){
-	    res.status(500).send(err)
+	    res.status(500).send(err+'from fetch')
 	}
 }
 const delete_article = async(req,res)=>{
@@ -39,11 +39,12 @@ const update_article = async(req,res)=>{
 }
 const fetch_article = async(req,res)=>{
         try{
-	    const target = article
-	    res.json(target).send(target);
-	    res.send("hello world");}
+   	    const task = await article.find({})
+            res.status(200).json({task})
+	    }
+    
     catch(error){
-	res.status(500).json(error)
+        res.status(500).send(error+'from get article')
     }
 }
 module.exports ={create_article,delete_article,fetch_article,update_article};

@@ -6,11 +6,6 @@ article_route.route('/articles')
     .get(fetch_article)
     .post(create_article)
     .patch(update_article)
-article_route.route('/articles/:id')
-    .patch(update_article)
-    .get()
-    .delete(delete_article)
-article_route.route('/articles/?category="$s"')
 module.exports = article_route;
 
 
