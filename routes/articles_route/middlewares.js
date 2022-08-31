@@ -39,13 +39,9 @@ const update_article = async(req,res)=>{
 }
 const fetch_article = async(req,res)=>{
         try{
-	    const target = await article.findById(req.param);
-	    console.log(req.param)
-    res.send(target)
-    article.deleteOne(target);
-    article.findByIdAndUpdate()
+	    const target = article
 	    res.json(target).send(target);
-	res.send("hello world");}
+	    res.send("hello world");}
     catch(error){
 	res.status(500).json(error)
     }
