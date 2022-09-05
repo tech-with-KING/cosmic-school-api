@@ -9,7 +9,7 @@ const app=express()
 connectdb(process.env.DB_URI)
 app.use(express.json())
 app.use(cors({
-    origin:"https://cosmic-school-api-node.vercel.app"
+    origin:'*'
 }))
 app.use('/',articles)
 app.use('/',register)
