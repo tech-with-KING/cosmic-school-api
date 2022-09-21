@@ -4,11 +4,14 @@
   "description": "my blogs api",
   "main": "index.js",
   "scripts": {
-    "script": "nodemon indesx.js",
-    "start": "nodemon index.js"
+    "script": "node indesx.js",
+    "start": "node index.js"
   },
   "author": "kingsley francis",
-  "license": "ISC",
+    "license": "ISC",
+    "engines" :{
+	"node":"16.x"
+    }
   "dependencies": {
     "cloudinary": "^1.31.0",
     "cors": "^2.8.5",

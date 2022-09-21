@@ -47,4 +47,15 @@ const fetch_article = async(req,res)=>{
         res.status(500).send(error+'from get article')
     }
 }
-module.exports ={create_article,delete_article,fetch_article,update_article};
+const fetch_singsle_article = async(req,res)=>{
+        try{
+   	    const task = await article.find({})
+            res.status(200).json({task})
+	    }
+    
+    catch(error){
+        res.status(500).send(error+'from get article')
+    }
+}
+
+module.exports ={create_article,delete_article,fetch_article,update_article,fetch_singsle_article};
