@@ -4,8 +4,8 @@
   "description": "my blogs api",
   "main": "index.js",
   "scripts": {
-    "script": "node indesx.js",
-    "start": "node index.js"
+    "script": "nodemon index.js",
+    "start": "nodemon index.js"
   },
   "author": "kingsley francis",
     "license": "ISC",

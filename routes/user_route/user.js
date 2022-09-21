@@ -1,12 +1,13 @@
 const express = require('express');
-const {create_user,get_user,update_user,delete_user} = require('./middlewares');
+const {create_new_user,fetch_user,update_user_detail,delete_user} = require('./middlewares');
 
 
 const register_user  = express.Router();
 register_user.route('/register')
-    .get(get_user)
-    .post(create_user)
-    .patch()
+    .get(fetch_user)
+    .post(create_new_user)
+    .patch(update_user_detail)
+    .delete(delete_user)
     
 
 

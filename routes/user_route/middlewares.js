@@ -1,41 +1,59 @@
-const mongoose = require('mongoose')
 const user  = require('./user_schema')
-const create_user =async(req,res)=>{
+const create_new_user =async (req,res)=>{
     try{
 	const User = new user(
 	    {
-		username:req.body.username,
 		email:req.body.email,
+		username:req.body.username,
+		profileImg:req.body.profileImg,
 		password:req.body.password,
-		profileImg:req.body.profileImg
 	    })
 	const newuser = await User.save()
-	res.status(200).json(newuser)
+	    res.status(200).json(newuser)
     }catch(err){
-	res.status(500).send(err)
+	    res.status(500).send(err+'from fetch users endpoint')
+	}
+}
+const delete_user = async(req,res)=>{
+    try{
+    const target = await user.findById(req.body.article.id);
+    res.send(target)
+    article.deleteOne(target);
+    article.findByIdAndDelete(req.body.title);
+	res.send.json(target).send(target)}
+    catch(error){
+	res.status(500).json(error + ' ' + ': from delete user endpoint')
     }
+}
+const update_user_detail = async(req,res)=>{
+    try{
+    const target = await article.findById(req.body.article);
+    res.send(target)
+    user.updateOne(target)
+	res.json(target).send(target)
+	}
+    catch(error){
+	res.status(500).json(error + ' '+':user update failed from update endpoint')
+    }
+}
+const fetch_user = async(req,res)=>{
+        try{
+   	    const users = await user.find({})
+            res.status(200).json({users})
+	    }
     
-}
-const get_user = async(req,res)=>{
-    try{
-	res.send("this use has been gotten")
-    }catch(err){
-	res.status(500).send("can't fetch articles")
+    catch(error){
+        res.status(500).send(error+'from get article')
     }
 }
-const update_user = async(req,res)=>{
-    try{
-	
-    }catch(err){
-	res.status(500).send("can't fetch articles")
-    }   
-}
-const delete_user =async(req,res)=>{
-    try{
-	
-    }catch(err){
-	res.status(500).send("can't fetch articles")
+const fetch_singsle_user = async(req,res)=>{
+        try{
+   	    const task = await article.find({})
+            res.status(200).json({task})
+	    }
+    
+    catch(error){
+        res.status(500).send(error+'from get article')
     }
-    res.send("hello world");
 }
-module.exports ={create_user,delete_user,get_user,update_user};
+module.exports = {create_new_user,fetch_user,update_user_detail,delete_user}
