@@ -12,6 +12,9 @@ app.use(cors({
 }))
 app.use('/',articles)
 app.use('/',register)
+app.use('/',(req,res)=>{
+    res.send('hallo')
+})
 app.listen(80, ()=>{
-    console.log(`running at ` + port)
+    console.log('holla')
 })
