@@ -2,7 +2,7 @@ const mongoose=require('mongoose')
 
 connectdb=async(url)=>{
     try {
-        const connect=await mongoose.connect(url,{useNewUrlParser:true},()=>{ 
+        const connect=await mongoose.connect('mongodb+srv://kingsley:kingsley2018@cluster0.orzrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{useNewUrlParser:true},()=>{ 
             console.log('connected to db')
 	    console.log(typeof(url))
         }
