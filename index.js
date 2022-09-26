@@ -5,7 +5,6 @@ const register = require('./user_route/user')
 const cors = require('cors')
 const serverless = require('serverless-http')
 require('dotenv').config()
-const port = process.env.PORT
 const app=express()
 connectdb(process.env.DB_URI)
 app.use(express.json())
