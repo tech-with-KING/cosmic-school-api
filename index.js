@@ -14,7 +14,5 @@ app.use(cors({
 }))
 app.use('/',articles)
 app.use('/',register)
-app.listen(port, ()=>{
-    console.log(`running at ` + port)
-})
+
 module.exports.handler = serverless(app)
