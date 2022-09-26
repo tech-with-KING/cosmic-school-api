@@ -13,6 +13,6 @@ app.use(cors({
 }))
 app.use('/',articles)
 app.use('/',register)
-app.listen(port, ()=>{
+app.listen(80, ()=>{
     console.log(`running at ` + port)
 })
