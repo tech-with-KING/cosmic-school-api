@@ -1,8 +1,9 @@
-const express=require('express')
-const connectdb= require('./routes/mongoose/connectdb')
-const articles = require('./routes/articles_route/articles')
-const register = require('./routes/user_route/user')
+const express = require('express')
+const connectdb = require('./mongoose/connectdb')
+const articles = require('./articles_route/articles')
+const register = require('./user_route/user')
 const cors = require('cors')
+const serverless = require('serverless-http')
 require('dotenv').config()
 const port = process.env.PORT
 const app=express()
@@ -13,7 +14,7 @@ app.use(cors({
 }))
 app.use('/',articles)
 app.use('/',register)
-
-app.listen(port,()=>{
-    console.log('server running')
+app.listen(port, ()=>{
+    console.log(`running at ` + port)
 })
+module.exports.handler = serverless(app)

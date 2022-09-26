@@ -39,7 +39,7 @@ const update_user_detail = async(req,res)=>{
 const fetch_user = async(req,res)=>{
         try{
    	    const users = await user.find({})
-            res.status(200).json({users})
+            res.status(200).json({user})
 	    }
     
     catch(error){
