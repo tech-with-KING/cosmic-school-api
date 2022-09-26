@@ -15,6 +15,6 @@ app.use('/',register)
 app.use('/',(req,res)=>{
     res.send('hallo')
 })
-app.listen(80, ()=>{
+app.listen(3000, ()=>{
     console.log('holla')
 })
