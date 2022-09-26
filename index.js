@@ -5,12 +5,16 @@ const register = require('./user_route/user')
 const cors = require('cors')
 const serverless = require('serverless-http')
 require('dotenv').config()
+const port = process.env.PORT
 const app=express()
-connectdb()
+connectdb(process.env.DB_URI)
 app.use(express.json())
 app.use(cors({
     origin:'*'
 }))
 app.use('/',articles)
 app.use('/',register)
+app.listen(port, ()=>{
+    console.log(`running at ` + port)
+})
 module.exports.handler = serverless(app)
