@@ -4,7 +4,7 @@
   "description": "my blogs api",
   "main": "index.js",
   "scripts": {
-    "build": "node index.js",
+    "build": "npm install",
     "start": "node index.js"
   },
   "author": "kingsley francis",
