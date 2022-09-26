@@ -6,7 +6,7 @@ const cors = require('cors')
 const serverless = require('serverless-http')
 require('dotenv').config()
 const app=express()
-connectdb(process.env.DB_URI)
+connectdb()
 app.use(express.json())
 app.use(cors({
     origin:'*'
