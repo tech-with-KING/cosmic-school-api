@@ -14,5 +14,4 @@ app.use(cors({
 }))
 app.use('/',articles)
 app.use('/',register)
-
 module.exports.handler = serverless(app)
