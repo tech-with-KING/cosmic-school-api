@@ -1,12 +1,17 @@
 const user  = require('./user_schema')
+const bcrypt = require('bcrypt')
 const create_new_user =async (req,res)=>{
     try{
+	const password = bcrypt.hash(req.body.password, salt, (err, encrypted) => {
+	    return(encrypted)
+	})
+
 	const User = new user(
 	    {
 		email:req.body.email,
 		username:req.body.username,
 		profileImg:req.body.profileImg,
-		password:req.body.password,
+		password:password,
 	    })
 	const newuser = await User.save()
 	    res.status(200).json(newuser)
