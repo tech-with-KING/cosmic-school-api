@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm install",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": "kingsley francis",
   "license": "ISC",

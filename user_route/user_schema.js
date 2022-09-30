@@ -6,25 +6,21 @@ const UserSchema = new mongoose.Schema
 	    type:String,
 	    required:true,
 	    unique:true,
-	    default:"taurus"
 	},
 	email:{
 	    type:String,
 	    required:true,
 	    unique:true,
-	    default:"taurus"
 	},
 	password:{
 	    type:String,
 	    required:true,
 	    unique:true,
-	    default:"taurus"
 	},
 	profileImg:{
 	    type:String,
 	    required:true,
 	    unique:true,
-	    default:'toe'
 	},
     },{timestamps:true}
 );
